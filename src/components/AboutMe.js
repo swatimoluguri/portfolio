@@ -49,7 +49,7 @@ const AboutMe = () => {
                 <div className="about-me-arrow-circle">
                   <span className="about-me-arrow">&rarr;</span>
                 </div>
-                <a target="_blank" className="about-me-view-details">
+                <a href={`Swati_Moluguri_Resume.pdf`} target="_blank" className="about-me-view-details" rel="noopener noreferrer">
                   My Resume
                 </a>
               </div>

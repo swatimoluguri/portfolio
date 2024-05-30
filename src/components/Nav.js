@@ -9,22 +9,22 @@ const Nav = () => {
       </div>
       <div>
         <ul className="nav-links">
-          <li>
-            <Link to="work-section" smooth={true} duration={500}>
-              Work
-            </Link>
-          </li>
-          <li>
-            <Link to="about-me-section" smooth={true} duration={500}>
-              Experience
-            </Link>
-          </li>
-          <li>
-            <Link to="footer" smooth={true} duration={500}>
-              Contact Me
-            </Link>
-          </li>
-          <li>Resume</li>
+          <Link to="work-section" smooth={true} duration={500}>
+            <li>Work</li>
+          </Link>
+          <Link to="about-me-section" smooth={true} duration={500}>
+            <li>Experience</li>
+          </Link>
+          <Link to="footer" smooth={true} duration={500}>
+            <li>Contact Me</li>
+          </Link>
+          <a
+            href="Swati_Moluguri_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <li>Resume</li>
+          </a>
         </ul>
       </div>
     </div>

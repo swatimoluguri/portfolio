@@ -10,6 +10,7 @@ const WorkCard = () => {
       tech: ["React", "ExpressJS", "NodeJS", "MongoDB", "TailwindCSS"],
       heading: "Shoppy - An e-commerce website",
       details: [
+        "Project backend server hosted on an AWS EC2 instance.",
         "Product listings powered by fakestoreAPI, Real-time currency exchange using currency exchange API.",
         "Cart and user state management with Redux toolkit and persist.",
         "Secure login with JWTs and encrypted passwords, featuring 2FA via Mail OTP for password resets.",
@@ -26,6 +27,7 @@ const WorkCard = () => {
       tech: ["React", "SocketIO", "NodeJS"],
       heading: "Tic Tac Toe - Online multiplayer game",
       details: [
+        "Project backend server hosted on an AWS EC2 instance.",
         "Real-time Multiplayer Action using SocketIO.",
         "Attractive, clean, and responsive design.",
         "Grid updates with each player's move with current player playing as cross or circle detection.",

@@ -6,6 +6,7 @@ import ProjectCard from "./components/ProjectCard";
 import AboutMe from "./components/AboutMe";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
+import UX from "./components/UX";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Body />
       <WorkCard />
       <ProjectCard />
+      <UX/>
       <AboutMe />
       <Timeline />
       <Footer />

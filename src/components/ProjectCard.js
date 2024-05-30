@@ -48,7 +48,7 @@ const ProjectCard = () => {
           <div key={item.heading} className="project-card">
             <div className="project-box">
               <div className="project-img">
-                <img src={item.img} />
+                <img src={item.img} alt={item.heading}/>
               </div>
               <div className="project-desc">
                 <div className="project-details">
@@ -65,7 +65,7 @@ const ProjectCard = () => {
                   <div className="arrow-circle">
                     <span className="arrow">&rarr;</span>
                   </div>
-                  <a href={item.live} target="_blank" className="view-details">
+                  <a href={item.live} target="_blank" className="view-details" rel="noopener noreferrer">
                     Demo
                   </a>
                 </div>
@@ -77,6 +77,7 @@ const ProjectCard = () => {
                     href={item.github}
                     target="_blank"
                     className="view-details"
+                    rel="noopener noreferrer"
                   >
                     Github
                   </a>
